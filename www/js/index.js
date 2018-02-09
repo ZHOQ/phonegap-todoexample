@@ -38,5 +38,5 @@ function onAddTask() {
     var newTask = {};
     newTask.Task = tasktext;
     Backendless.Data.of("Tasks").save(newTask).then(saved).catch(error); 
-
+    
 }
